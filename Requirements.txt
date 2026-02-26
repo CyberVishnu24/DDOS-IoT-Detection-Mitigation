@@ -1,0 +1,38 @@
+# Development Requirements - Testing & Code Quality Tools
+# ========================================================
+# Install with: pip install -r requirements-dev.txt
+# This installs everything from requirements.txt + dev tools
+
+-r requirements.txt
+
+# Testing Framework
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-asyncio==0.21.1
+
+# Code Quality & Formatting
+black==23.12.1
+flake8==6.1.0
+pylint==3.0.3
+mypy==1.7.1
+isort==5.13.2
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Type Stubs
+types-psutil==5.9.5.17
+pandas-stubs==2.1.1.230928
+
+# Security Scanning
+bandit==1.7.5
+safety==2.3.5
+
+# Performance Profiling
+line-profiler==4.1.1
+memory-profiler==0.61.0
+
+# Pre-commit Hooks
+pre-commit==3.6.0
